@@ -89,7 +89,7 @@ public class MoveLayer : MonoBehaviour
         if (timer>=0.5f) {
             if (!iswin)
             {
-                MyBlockPositionSet();
+                if (mblockposition != null && levelsApps.ABPoints2[1] != null) { MyBlockPositionSet(); }
                 if (mblockposition != null&& levelsApps.ABPoints2[1]!=null)
                 {
 
@@ -355,32 +355,55 @@ public class MoveLayer : MonoBehaviour
     }
     private void MyBlockPositionSet()
     {
-        if(isContainPositionBlock(row1+1, col1))
+        if (col1 == levelsApps.ABPoints2[1].col)
         {
-            row1 += 1;
-            NextPositionBlock(row1, col1);
-            //mblockposition = levelsApps.blocksp[(mblockposition.row + 1) * levelsApps.MaxX + (mblockposition.col)];
-            //MyBlock.transform.position = mblockposition.transform.position;
+            if (isContainPositionBlock(row1 + 1, col1))
+            {
+                row1 += 1;
+                NextPositionBlock(row1, col1);
+            }
+            if (isContainPositionBlock(row1 - 1, col1))
+            {
+                row1 -= 1;
+                NextPositionBlock(row1, col1);
+            }
         }
-        if (isContainPositionBlock(row1, col1+1))
+        else if (row1 == levelsApps.ABPoints2[1].row)
         {
-            col1 += 1;
-            NextPositionBlock(row1, col1);
-            //mblockposition = levelsApps.blocksp[(mblockposition.row) * levelsApps.MaxX + (mblockposition.col + 1)];
-            //MyBlock.transform.position = mblockposition.transform.position;
+            if (isContainPositionBlock(row1, col1 + 1))
+            {
+                col1 += 1;
+                NextPositionBlock(row1, col1);
+            }
+            if (isContainPositionBlock(row1, col1 - 1))
+            {
+                col1 -= 1; NextPositionBlock(row1, col1);
+            }
         }
-        if (isContainPositionBlock(row1 - 1, col1))
-        {
-            row1 -= 1;
-            NextPositionBlock(row1, col1);
-            //mblockposition = levelsApps.blocksp[(mblockposition.row - 1) * levelsApps.MaxX + (mblockposition.col)];
-            //MyBlock.transform.position = mblockposition.transform.position;
+        else {
+            if (isContainPositionBlock(row1 + 1, col1))
+            {
+                row1 += 1;
+                NextPositionBlock(row1, col1);
+            }
+            if (isContainPositionBlock(row1 - 1, col1))
+            {
+                row1 -= 1;
+                NextPositionBlock(row1, col1);
+            }
+        //}
+        //else
+        //{
+            if (isContainPositionBlock(row1, col1 + 1))
+            {
+                col1 += 1;
+                NextPositionBlock(row1, col1);
+            }
+            if (isContainPositionBlock(row1, col1 - 1))
+            {
+                col1 -= 1; NextPositionBlock(row1, col1);
+            }
         }
-        if (isContainPositionBlock(row1, col1-1))
-        {
-            col1 -= 1; NextPositionBlock(row1, col1);
-        }
-
     }
     public bool isContainPositionBlock(int row,int col)
     {
