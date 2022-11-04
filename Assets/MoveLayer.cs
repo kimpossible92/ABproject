@@ -149,12 +149,13 @@ public class MoveLayer : MonoBehaviour
                                 {
                                     //if (movecount == 1) { Ending = 1; }
                                     StartCoroutine(TryBlock2(hits));
-
+                                    
                                     Ending = 1;
                                     //if (isNoEmptyBlocks()) {  }
                                     //print(isNoEmptyBlocks());
                                     if (Ending == 1)
                                     {
+                                        MyCountEmpty();
                                         //levelsApps.LoadLB();
                                         FindAllBlocks();
                                         Ending = 2;
@@ -213,6 +214,43 @@ public class MoveLayer : MonoBehaviour
         else
         {
             //levelsApps.ClearBlock();
+        }
+    }
+    public void MyCountEmpty()
+    {
+        int r0 = GetHitGem2.row - GetHitGemBlock.row;
+        int c0 = GetHitGem2.col - GetHitGemBlock.col;
+        if (countEmpty == 0)
+        {
+            ccount++;
+            if (ccount == 3 && (movecount < limitMove || iswin == false))
+            {
+                levelsApps.NewBlockMatch();
+                movecount++;
+                //print(movecount);
+                //print(limitMove);
+                ccount = 0;
+            }
+            levelsApps.blockBlocks.Remove(_bblocks);
+            countEmpty = 0;
+        }
+
+        if (countEmpty > 0)
+        {
+            foreach (var bb1 in _bblocks)
+            {
+                bb1.transform.TweenPosition(0.2f, bb1.oldPosition);
+                if (
+                    (r0 + bb1.row >= 0 && r0 + bb1.row < levelsApps.MaxY)
+                    && (c0 + bb1.col >= 0 && c0 + bb1.col < levelsApps.MaxX)
+                    )
+                {
+                    levelsApps.blocksp[(r0 + bb1.row) * levelsApps.MaxX + (c0 + bb1.col)].isFullBlock = null;
+                    GetHitBLocks_[(r0 + bb1.row), (c0 + bb1.col)] = null;
+
+                }
+            }
+            countEmpty = 0;
         }
     }
     public void isDestBlocks()
@@ -549,9 +587,10 @@ public class MoveLayer : MonoBehaviour
             && levelsApps.blocksp[row * levelsApps.MaxX + col].isFullBlock == null) { return true; }
         return false;
     }
+    Block GetHitGem2;
     IEnumerator TryBlock2(RaycastHit2D raycast2)
     {
-        Block GetHitGem2 = raycast2.collider.gameObject.GetComponent<Block>();
+        GetHitGem2 = raycast2.collider.gameObject.GetComponent<Block>();
         GetHitGemBlock.transform.TweenPosition(0.2f, GetHitGem2.transform.position); 
         int r0 = GetHitGem2.row-GetHitGemBlock.row;
         int c0 = GetHitGem2.col-GetHitGemBlock.col;
@@ -600,38 +639,7 @@ public class MoveLayer : MonoBehaviour
         //movecount++;
         
         //print(levelsApps.GetBlocks.Count);
-        if (countEmpty == 0)
-        {
-            ccount++;
-            if (ccount == 3&&(movecount<limitMove||iswin==false))
-            {
-                levelsApps.NewBlockMatch();
-                movecount++;
-                //print(movecount);
-                //print(limitMove);
-                ccount = 0;
-            }
-            levelsApps.blockBlocks.Remove(_bblocks);
-            countEmpty = 0;
-        }
-        
-        if (countEmpty > 0)
-        {
-            foreach (var bb1 in _bblocks)
-            {
-                bb1.transform.TweenPosition(0.2f, bb1.oldPosition);
-                if (
-                    (r0 + bb1.row >= 0 && r0 + bb1.row < levelsApps.MaxY) 
-                    && (c0 + bb1.col >= 0 && c0 + bb1.col < levelsApps.MaxX)
-                    )
-                {
-                    levelsApps.blocksp[(r0 + bb1.row) * levelsApps.MaxX + (c0 + bb1.col)].isFullBlock = null;
-                    GetHitBLocks_[(r0 + bb1.row), (c0 + bb1.col)] = null;
-
-                }
-            }
-            countEmpty = 0;
-        }
+       
         //NextBlocks();
         //if (
         //    GetMyBlocks.Contains(levelsApps.sPointBlockB())&&

@@ -681,7 +681,7 @@ public class OpenAppLevel : MonoBehaviour
     private void OnGUI()
     {
         bool onmode3block = false;
-        if (modeLvl == 0)
+        //if (modeLvl == 0)
         {
             //print(TargetScore);
             GetText2.gameObject.SetActive(true);
@@ -690,39 +690,39 @@ public class OpenAppLevel : MonoBehaviour
             GetText.text = string.Format("{0}", printScores);
             onmode3block = true;
         }
-        else if (modeLvl == 3)
-        {
-            GetText2.gameObject.SetActive(true);
-            GetText.gameObject.SetActive(true);
-            GetText2.text = string.Format("{0}", blockscount);
-            GetText.text = string.Format("{0}", printScores);
-            if (blockscount == 0)
-            {
-                onmode3block = true;
-            }
-        }
-        else if (modeLvl == 2)
-        {
-            GetText2.gameObject.SetActive(false);
-            GetText.gameObject.SetActive(true);
-            IngredientsCountUIText.text = string.Format("{0}", ingCtar[0]);
-            IngredientsCountUIText2.text = string.Format("{0}", ingCtar[1]);
-            GetText.text = string.Format("{0}", printScores);
-            onmode3block = true;
-        }
-        else if (modeLvl == 1)
-        {
-            GetText2.gameObject.SetActive(false);
-            GetText.gameObject.SetActive(true);
-            IngredientsCountUIText.text = string.Format("{0}", ingCtar[0]);
-            IngredientsCountUIText2.text = string.Format("{0}", ingCtar[1]);
-            GetText.text = string.Format("{0}", printScores);
-            if ((int)ltype == 0) onmode3block = true;
-        }
-        else {
-            GetText2.gameObject.SetActive(false);
-            GetText.gameObject.SetActive(true);
-        }
+        //else if (modeLvl == 3)
+        //{
+        //    GetText2.gameObject.SetActive(true);
+        //    GetText.gameObject.SetActive(true);
+        //    GetText2.text = string.Format("{0}", blockscount);
+        //    GetText.text = string.Format("{0}", printScores);
+        //    if (blockscount == 0)
+        //    {
+        //        onmode3block = true;
+        //    }
+        //}
+        //else if (modeLvl == 2)
+        //{
+        //    GetText2.gameObject.SetActive(false);
+        //    GetText.gameObject.SetActive(true);
+        //    IngredientsCountUIText.text = string.Format("{0}", ingCtar[0]);
+        //    IngredientsCountUIText2.text = string.Format("{0}", ingCtar[1]);
+        //    GetText.text = string.Format("{0}", printScores);
+        //    onmode3block = true;
+        //}
+        //else if (modeLvl == 1)
+        //{
+        //    GetText2.gameObject.SetActive(false);
+        //    GetText.gameObject.SetActive(true);
+        //    IngredientsCountUIText.text = string.Format("{0}", ingCtar[0]);
+        //    IngredientsCountUIText2.text = string.Format("{0}", ingCtar[1]);
+        //    GetText.text = string.Format("{0}", printScores);
+        //    if ((int)ltype == 0) onmode3block = true;
+        //}
+        //else {
+        //    GetText2.gameObject.SetActive(false);
+        //    GetText.gameObject.SetActive(true);
+        //}
         if ((uint)ltype == 1)
         {
             GetTextTimer.gameObject.SetActive(true);

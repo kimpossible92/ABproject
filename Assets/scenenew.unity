@@ -16121,8 +16121,8 @@ MonoBehaviour:
   Blockprefs:
   - {fileID: 8449799993723094890, guid: d135d0b6712ea75478c5569d93ada142, type: 3}
   - {fileID: 482138785084612743, guid: 0e2bd98485272fe4d8842e15a2e1cac0, type: 3}
-  - {fileID: 2950656081317936740, guid: 73021fdb1edd23b4496a177edb3b035b, type: 3}
   - {fileID: 6079263082849192344, guid: a8a65ad3306586a46958ae48563b3882, type: 3}
+  - {fileID: 456276153579189289, guid: e28adc6793aa805419fbf62341f5d98d, type: 3}
   - {fileID: 456276153579189289, guid: e28adc6793aa805419fbf62341f5d98d, type: 3}
   vector2position: {x: -2.37, y: -1}
   vector2position2: {x: -2.37, y: -4.4}
@@ -16159,6 +16159,8 @@ MonoBehaviour:
   Play: {fileID: 1235108178}
   isNewScene: 1
   GetBlocks1: []
+  ABPointBlocks: []
+  ABPoints2: []
   block2pos: {fileID: 8428516128583657297, guid: 287caca3860b3c44cb8c39aefd4d9779, type: 3}
   GetBlocks: []
   urlOnTournament: 
