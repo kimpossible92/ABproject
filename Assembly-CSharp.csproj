@@ -56,80 +56,264 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MySide.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\ShipSystems\WeaponSystem.cs" />
+    <Compile Include="Assets\Scripts\SO\SkinContainerSO.cs" />
     <Compile Include="Assets\Scripts\Instatnce.cs" />
+    <Compile Include="Assets\Scripts\Maze\MazeBuilder.cs" />
     <Compile Include="Assets\Prefs\TransformExtensions.cs" />
     <Compile Include="Assets\GameSparks\GameSparksSettings.cs" />
-    <Compile Include="Assets\OpenLevels.cs" />
+    <Compile Include="Assets\Scripts\PlayerAnim\BodyControllerAnim.cs" />
+    <Compile Include="Assets\мир2\OpenLevels.cs" />
+    <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
+    <Compile Include="Assets\Scripts\Utils\ListUtils.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\ShipControllers\CustomControllers\PlayerShipController.cs" />
+    <Compile Include="Assets\Scripts\UI\MuteMusicButton.cs" />
+    <Compile Include="Assets\PoolSpawn.cs" />
     <Compile Include="Assets\Scripts\ControllerMultiplicte.cs" />
-    <Compile Include="Assets\MoveLayer.cs" />
-    <Compile Include="Assets\outline.cs" />
+    <Compile Include="Assets\Scripts\UI\MuteSfxButton.cs" />
+    <Compile Include="Assets\мир2\MoveLayer.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+    <Compile Include="Assets\Scripts\Utils\AditiveAsyncSceneLoader.cs" />
+    <Compile Include="Assets\Scripts\User\UserInventorySO.cs" />
+    <Compile Include="Assets\Scripts\SO\ComponentPoolSO.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+    <Compile Include="Assets\мир2\outline.cs" />
     <Compile Include="Assets\GameSparks\Platforms\TimerController.cs" />
-    <Compile Include="Assets\MCube.cs" />
+    <Compile Include="Assets\MyProjectile.cs" />
+    <Compile Include="Assets\мир2\MCube.cs" />
     <Compile Include="Assets\Scripts\Rotations.cs" />
-    <Compile Include="Assets\GamesparksDataManager.cs" />
+    <Compile Include="Assets\LocalPos.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatAppIdCheckerUI.cs" />
+    <Compile Include="Assets\мир2\GamesparksDataManager.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\AppSettingsExtensions.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerInputControl.cs" />
+    <Compile Include="Assets\Wirm.cs" />
+    <Compile Include="Assets\Scripts\BSP\Corridor.cs" />
+    <Compile Include="Assets\Scripts\Structs\SnakeStruct.cs" />
+    <Compile Include="Assets\Mass.cs" />
+    <Compile Include="Assets\Scripts\SO\PlayFab\BusServerCallSO.cs" />
     <Compile Include="Assets\Prefs\QuadBlock.cs" />
-    <Compile Include="Assets\Portrait.cs" />
+    <Compile Include="Assets\Scripts\SO\EventSO.cs" />
+    <Compile Include="Assets\Prog.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Spaceships\Spaceship.cs" />
+    <Compile Include="Assets\Scripts\SO\BusBuySkinSO.cs" />
+    <Compile Include="Assets\OpAppLvlk.cs" />
+    <Compile Include="Assets\LobbyState.cs" />
+    <Compile Include="Assets\SlotUI\Scripts\ItemFollowMouse.cs" />
+    <Compile Include="Assets\offcorm.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Weapons\Projectiles\PoolSetup.cs" />
+    <Compile Include="Assets\Scripts\SO\PlayerVariableSO.cs" />
+    <Compile Include="Assets\Scripts\Utils\MySceneManager.cs" />
+    <Compile Include="Assets\мир2\Portrait.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Helpers\OutOfBorderDestructor.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChannelSelector.cs" />
     <Compile Include="Assets\Scripts-UI\ControlUI.cs" />
     <Compile Include="Assets\Cubs\PlayerTowerController.cs" />
+    <Compile Include="Assets\Scripts\SO\Audio\BusMuteAudioSO.cs" />
+    <Compile Include="Assets\Scripts\Player\Snake.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerSpawn.cs" />
     <Compile Include="Assets\GameSparks\Platforms\UnityTimer.cs" />
+    <Compile Include="Assets\Scripts\Utils\AsyncSceneLoad.cs" />
+    <Compile Include="Assets\NetworkManagerHUD_Simple.cs" />
+    <Compile Include="Assets\Scripts\TileMaps\TileMapVisualizer.cs" />
+    <Compile Include="Assets\Scripts\SO\AbstractSkinItemSO.cs" />
     <Compile Include="Assets\Scripts-UI\MenuGameOver.cs" />
-    <Compile Include="Assets\MapLevel2.cs" />
-    <Compile Include="Assets\MainText.cs" />
-    <Compile Include="Assets\NextImageScript.cs" />
-    <Compile Include="Assets\Cubs\ISpaceship.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\EnemySp.cs" />
+    <Compile Include="Assets\мир2\MapLevel2.cs" />
+    <Compile Include="Assets\мир2\MainText.cs" />
+    <Compile Include="Assets\мир2\NextImageScript.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\GameSparks\Platforms\Native\detail\NativeWebSocket.cs" />
+    <Compile Include="Assets\Level1.cs" />
     <Compile Include="Assets\GameSparks\Platforms\PlatformBase.cs" />
+    <Compile Include="Assets\Scripts\Food\FoodController.cs" />
+    <Compile Include="Assets\Scripts\Audio\SoundEmitter.cs" />
     <Compile Include="Assets\GameSparks\Platforms\WebSocketController.cs" />
-    <Compile Include="Assets\HitCandy.cs" />
+    <Compile Include="Assets\Resources\_Objects.cs" />
+    <Compile Include="Assets\мир2\HitCandy.cs" />
+    <Compile Include="Assets\Scripts\Utils\LogInManager.cs" />
+    <Compile Include="Assets\Scripts\Enums\Skins.cs" />
     <Compile Include="Assets\FacebookScript.cs" />
-    <Compile Include="Assets\OpenAppLevel.cs" />
+    <Compile Include="Assets\мир2\OpenAppLevel.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Spawners\Spawner.cs" />
+    <Compile Include="Assets\PhotonChatApi\ChannelWellKnownProperties.cs" />
     <Compile Include="Assets\Scripts-UI\MenuPause.cs" />
+    <Compile Include="Assets\Scripts\SO\Audio\SoundEmitterFactorySO.cs" />
+    <Compile Include="Assets\Scripts\PlayerAnim\PlayerControllerAnim.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Weapons\IDamagable.cs" />
+    <Compile Include="Assets\Scripts\SO\MazeSkinSO.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraShake.cs" />
     <Compile Include="Assets\Scripts-UI\MenuCredits.cs" />
+    <Compile Include="Assets\Scripts\SO\Audio\SoundEmitterPoolSO.cs" />
     <Compile Include="Assets\GameSparks\Platforms\WebGL\WebGLWebSocket.cs" />
+    <Compile Include="Assets\SlotUI\Scripts\ItemDatabase.cs" />
+    <Compile Include="Assets\Scripts\Utils\Constants.cs" />
+    <Compile Include="Assets\Scripts\UI\CanvasManager.cs" />
     <Compile Include="Assets\Cubs\ShipSystems\MovementSystem.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Weapons\Projectiles\ProjectilePool.cs" />
+    <Compile Include="Assets\Scripts\SO\Items\MazeSkinItemSO.cs" />
+    <Compile Include="Assets\Noise.cs" />
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+    <Compile Include="Assets\Road.cs" />
+    <Compile Include="Assets\Scripts\SO\Audio\AudioConfigSO.cs" />
+    <Compile Include="Assets\Scripts\PlayFab\ServerModels.cs" />
+    <Compile Include="Assets\Scripts\Interfaces\IFactory.cs" />
+    <Compile Include="Assets\Scripts\Utils\PriceData.cs" />
     <Compile Include="Assets\GameSparks\TestUI\GameSparksTestUI.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Weapons\Projectiles\PoolManager.cs" />
+    <Compile Include="Assets\NetSide.cs" />
+    <Compile Include="Assets\Host.cs" />
     <Compile Include="Assets\GameSparks\Platforms\IControlledTimer.cs" />
-    <Compile Include="Assets\UpdateAfterMatch.cs" />
+    <Compile Include="Assets\мир2\UpdateAfterMatch.cs" />
+    <Compile Include="Assets\TextureCreator.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerPhysics.cs" />
+    <Compile Include="Assets\Scripts\TileMaps\WallTile.cs" />
+    <Compile Include="Assets\Scripts\SO\BusGameManagerSO.cs" />
     <Compile Include="Assets\Cubs\Cubs.cs" />
-    <Compile Include="Assets\playerImage.cs" />
+    <Compile Include="Assets\Scenes.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Weapons\Weapon.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\ShipControllers\ShipController.cs" />
+    <Compile Include="Assets\мир2\playerImage.cs" />
+    <Compile Include="Assets\Scripts\Food\FoodSpawner.cs" />
     <Compile Include="Assets\GameSparks\Platforms\IControlledWebSocket.cs" />
-    <Compile Include="Assets\Cubs\Cubick.cs" />
-    <Compile Include="Assets\Arrays.cs" />
+    <Compile Include="Assets\Scripts\Exit\Exit.cs" />
+    <Compile Include="Assets\мир2\Arrays.cs" />
+    <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
+    <Compile Include="Assets\Scripts\SO\FoodSO\FoodPool.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\Scripts\Maze\MazeCell.cs" />
+    <Compile Include="Assets\Begin.cs" />
+    <Compile Include="Assets\Scripts\SO\BusMazeManagerSO.cs" />
+    <Compile Include="Assets\Energy.cs" />
+    <Compile Include="Assets\Logger.cs" />
     <Compile Include="Assets\Cubs\ShipSystems\Projectile.cs" />
-    <Compile Include="Assets\MenuGUI.cs" />
+    <Compile Include="Assets\Scripts\SO\PlayFab\PlayFabManagerSO.cs" />
+    <Compile Include="Assets\Scripts\SO\AbstractSO.cs" />
+    <Compile Include="Assets\Scripts\BlockEnemy.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Weapons\IDamageDealer.cs" />
+    <Compile Include="Assets\SlotUI\Scripts\Tooltip.cs" />
+    <Compile Include="Assets\SampleButton.cs" />
+    <Compile Include="Assets\Scripts\SO\Items\SnakeSkinItemSO.cs" />
+    <Compile Include="Assets\Scripts\Enums\Directions.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\ShipControllers\CustomControllers\EnemyShipController.cs" />
+    <Compile Include="Assets\Scripts\SO\FactorySO.cs" />
+    <Compile Include="Assets\мир2\MenuGUI.cs" />
+    <Compile Include="Assets\Scripts\SO\AbstractSkinSO.cs" />
+    <Compile Include="Assets\Scripts\SO\SnakeSkinSO.cs" />
+    <Compile Include="Assets\Scripts\SO\Audio\AudioClipSO.cs" />
+    <Compile Include="Assets\SelectSpawn.cs" />
+    <Compile Include="Assets\Scripts\Enums\AudioCLipType.cs" />
+    <Compile Include="Assets\Scripts\Structures\Node.cs" />
+    <Compile Include="Assets\showGui.cs" />
+    <Compile Include="Assets\Scripts\UI\DoLerp.cs" />
+    <Compile Include="Assets\Scripts\User\UserData.cs" />
+    <Compile Include="Assets\MyObect.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
+    <Compile Include="Assets\Scripts\Enums\WallSprites.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioRequest.cs" />
     <Compile Include="Assets\GameSparks\Platforms\Native\NativePlatform.cs" />
     <Compile Include="Assets\GameSparks\GameSparksRTUnity.cs" />
-    <Compile Include="Assets\Tournament.cs" />
-    <Compile Include="Assets\GPGSIds.cs" />
-    <Compile Include="Assets\IDataManager.cs" />
-    <Compile Include="Assets\PortalNetwork.cs" />
-    <Compile Include="Assets\TournamentLB.cs" />
+    <Compile Include="Assets\мир2\Tournament.cs" />
+    <Compile Include="Assets\мир2\GPGSIds.cs" />
+    <Compile Include="Assets\Scripts\UI\BuyButton.cs" />
+    <Compile Include="Assets\Scripts\Maze\MazeGrid.cs" />
+    <Compile Include="Assets\мир2\IDataManager.cs" />
+    <Compile Include="Assets\мир2\PortalNetwork.cs" />
+    <Compile Include="Assets\OpenLevel.cs" />
+    <Compile Include="Assets\мир2\TournamentLB.cs" />
     <Compile Include="Assets\GameSparks\Platforms\Native\NativeWebSocket.cs" />
-    <Compile Include="Assets\Cubs\Road.cs" />
+    <Compile Include="Assets\Joystick Pack\Examples\JoystickSetterExample.cs" />
+    <Compile Include="Assets\Resources\ast.cs" />
+    <Compile Include="Assets\SlotUI\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\Utils\EconomyManager.cs" />
+    <Compile Include="Assets\Scripts\SO\Items\CatalogSO.cs" />
+    <Compile Include="Assets\LobbyPlayer.cs" />
+    <Compile Include="Assets\Cubs\Road2.cs" />
+    <Compile Include="Assets\Scripts\SO\FoodSO\FoodFactory.cs" />
+    <Compile Include="Assets\Scripts\Utils\SkinManager.cs" />
     <Compile Include="Assets\GameSparks\Platforms\WebGL\SimpleJson2.cs" />
+    <Compile Include="Assets\Scripts\User\UserManager.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\CollShip.cs" />
+    <Compile Include="Assets\SlotUI\Scripts\UIInventory.cs" />
     <Compile Include="Assets\Scripts\ControllerNivel.cs" />
+    <Compile Include="Assets\Scripts\UI\HideOrShowInPc.cs" />
+    <Compile Include="Assets\Scripts\UI\ResumeButton.cs" />
     <Compile Include="Assets\GameSparks\MyGameSparks.cs" />
-    <Compile Include="Assets\Cubs\ShipSystems\IDamageDealer.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Weapons\Projectiles\CustomProjectiles\LaserBeam.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
+    <Compile Include="Assets\Scripts\BSP\BSPGenerator.cs" />
+    <Compile Include="Assets\SlotUI\Scripts\UIItem.cs" />
+    <Compile Include="Assets\Scripts\SO\SOManager.cs" />
+    <Compile Include="Assets\Scripts\Structures\BinaryTree.cs" />
     <Compile Include="Assets\GameSparks\GameSparksUnity.cs" />
+    <Compile Include="Assets\Scripts\Camera\BackgroundCamera.cs" />
     <Compile Include="Assets\Scripts\ControllerUI.cs" />
-    <Compile Include="Assets\Block.cs" />
+    <Compile Include="Assets\мир2\Block.cs" />
+    <Compile Include="Assets\ProgrammPlayer.cs" />
+    <Compile Include="Assets\Scripts\Utils\ShopManager.cs" />
+    <Compile Include="Assets\Scripts\SO\PoolSO.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Scripts\UI\NameAndCoins.cs" />
+    <Compile Include="Assets\MoveLayer2.cs" />
     <Compile Include="Assets\Prefs\Tweener.cs" />
+    <Compile Include="Assets\Scripts\SO\BusSelectSkinSO.cs" />
+    <Compile Include="Assets\Scripts\PlayFab\GameVersion.cs" />
+    <Compile Include="Assets\DebugConnection.cs" />
+    <Compile Include="Assets\Corm.cs" />
     <Compile Include="Assets\GameSparks\Platforms\Native\detail\GameSparksNative.cs" />
-    <Compile Include="Assets\OpLvl.cs" />
+    <Compile Include="Assets\Scripts\Player\BodyController.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\FriendItem.cs" />
+    <Compile Include="Assets\Scripts\Utils\ScriptableManager.cs" />
+    <Compile Include="Assets\мир2\OpLvl.cs" />
+    <Compile Include="Assets\Cube123.cs" />
     <Compile Include="Assets\GameSparks\Platforms\WebGL\WebGLPlatform.cs" />
+    <Compile Include="Assets\JoyButton.cs" />
+    <Compile Include="Assets\Scripts\Audio\MusicManager.cs" />
+    <Compile Include="Assets\LobbyHook.cs" />
     <Compile Include="Assets\GameSparks\Platforms\Native\detail\GameSparksNativePINVOKE.cs" />
-    <Compile Include="Assets\TimerCount.cs" />
+    <Compile Include="Assets\Scripts\BSP\BSPdata.cs" />
+    <Compile Include="Assets\Scripts\Audio\MusicRequest.cs" />
+    <Compile Include="Assets\MyLobby.cs" />
+    <Compile Include="Assets\Scripts\SO\UserData\UserDataControllerSO.cs" />
+    <Compile Include="Assets\Scripts\UI\SelectButton.cs" />
+    <Compile Include="Assets\мир2\TimerCount.cs" />
+    <Compile Include="Assets\SpawnManager.cs" />
+    <Compile Include="Assets\MMDebug.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\ChatGui.cs" />
+    <Compile Include="Assets\UIPlay.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Spaceships\ISpaceship.cs" />
+    <Compile Include="Assets\PhotonChatApi\ChannelCreationOptions.cs" />
     <Compile Include="Assets\GameSparks\Platforms\DefaultPlatform.cs" />
+    <Compile Include="Assets\Scripts\SO\Audio\AudioSkinSO.cs" />
+    <Compile Include="Assets\Resources\rubin.cs" />
     <Compile Include="Assets\Cubs\ShipSystems\Cub.cs" />
     <Compile Include="Assets\Scripts\RecolectorBase.cs" />
-    <Compile Include="Assets\Cubs\ShipSystems\IDamagable.cs" />
-    <Compile Include="Assets\OpenLevelProp.cs" />
-    <Compile Include="Assets\Gem.cs" />
-    <Compile Include="Assets\NeighbourProp.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextToggleIsOnTransition.cs" />
+    <Compile Include="Assets\SlotUI\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Enums\Currency.cs" />
+    <Compile Include="Assets\мир2\OpenLevelProp.cs" />
+    <Compile Include="Assets\NetworkManagerHUD_Side.cs" />
+    <Compile Include="Assets\Scripts\SO\FoodSO\BusFoodSO.cs" />
+    <Compile Include="Assets\Scripts\Exceptions\NotEnumTypeSupportedException.cs" />
+    <Compile Include="Assets\Scripts\SO\Audio\BusAudioSO.cs" />
+    <Compile Include="Assets\Scripts\BSP\Room.cs" />
+    <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
+    <Compile Include="Assets\MObstacle.cs" />
+    <Compile Include="Assets\мир2\Gem.cs" />
+    <Compile Include="Assets\мир2\NeighbourProp.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\Helpers\GameAreaHelper.cs" />
+    <Compile Include="Assets\Scripts\Utils\BinaryTreeUtils.cs" />
     <Compile Include="Assets\Scripts\Piece.cs" />
+    <Compile Include="Assets\NetworkPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.xml" />
     <None Include="Assets\Resources\10.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Resources\1.txt" />
@@ -150,6 +334,8 @@
     <None Include="Assets\Resources\Levels\4.txt" />
     <None Include="Assets\Resources\5.txt" />
     <None Include="Assets\Resources\4.txt" />
+    <None Include="Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll" />
+    <None Include="Assets\photon-chat-readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Resources\Levels\17.txt" />
     <None Include="Assets\Resources\Levels\13.txt" />
@@ -171,20 +357,29 @@
     <None Include="Assets\Resources\6.txt" />
     <None Include="Assets\GameSparks\Plugins\BouncyCastle_GameSparks.dll" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Resources\9.txt" />
     <None Include="Assets\Resources\Levels\20.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\Audio\Music\README.txt" />
     <None Include="Assets\Resources\Levels\10.txt" />
     <None Include="Assets\Resources\Levels\5.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\GameSparks\Plugins\WP8\GameSparks.dll" />
+    <None Include="Assets\Photon\PhotonChat\Demos\DemoChat\Files\eurof_tt.txt" />
+    <None Include="Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll" />
     <None Include="Assets\Resources\Levels\19.txt" />
+    <None Include="Assets\unlitMaster.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\NewUnlitShader.shader" />
     <None Include="Assets\GameSparks\Plugins\UWP\GameSparks.dll" />
+    <None Include="Assets\Lit.shader" />
     <None Include="Assets\Resources\Levels\12.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Shaders\PolyToolkitPbrOpaqueDoubleSided.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\Shaders\PolyToolkitPbrBlendDoubleSided.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\Resources\0.txt" />
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
@@ -434,26 +629,38 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="GameSparks">
+      <HintPath>Assets\GameSparks\Plugins\GameSparks.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>Assets\Photon\PhotonLibs\netstandard2.0\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportGeneratorMerged">
+      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="GameSparksRT">
       <HintPath>Assets\GameSparks\Plugins\GameSparksRT.dll</HintPath>
     </Reference>
     <Reference Include="BouncyCastle_GameSparks">
       <HintPath>Assets\GameSparks\Plugins\BouncyCastle_GameSparks.dll</HintPath>
     </Reference>
-    <Reference Include="GameSparks">
-      <HintPath>Assets\GameSparks\Plugins\GameSparks.dll</HintPath>
+    <Reference Include="websocket-sharp">
+      <HintPath>Assets\Photon\PhotonLibs\WebSocket\websocket-sharp.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="ReportGeneratorMerged">
-      <HintPath>Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-    </Reference>
     <Reference Include="GameSparks.Api">
       <HintPath>Assets\GameSparks\Plugins\GameSparks.Api.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@1.10.1\Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.12f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -833,6 +1040,9 @@
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -878,6 +1088,9 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.multiplayer-weaver.Editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.multiplayer-weaver.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
     </Reference>
@@ -887,8 +1100,20 @@
     <Reference Include="Unity.EditorCoroutines.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+      <HintPath>Library\ScriptAssemblies\com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -899,6 +1124,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
     </Reference>
@@ -907,9 +1135,33 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{C16DB9CA-590F-A3A7-F6F2-F7BE737699BD}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonChat.csproj">
+      <Project>{E1DA5223-6523-C611-2CF5-A310805994F6}</Project>
+      <Name>PhotonChat</Name>
+    </ProjectReference>
     <ProjectReference Include="AllIn1VfxDemoScriptAssemblies.csproj">
       <Project>{9108D486-781E-3D27-1D88-9D86FFCE0AA3}</Project>
       <Name>AllIn1VfxDemoScriptAssemblies</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabSDKEditor.csproj">
+      <Project>{99FFEAF4-8617-B6FF-2308-E512801C04C5}</Project>
+      <Name>PlayFabSDKEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFabEditorExtensions.csproj">
+      <Project>{1502B08B-EC30-83FA-0CAD-501455435432}</Project>
+      <Name>PlayFabEditorExtensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="PlayFab.csproj">
+      <Project>{5E0842BE-1B9E-2B7C-0B39-2AC493223244}</Project>
+      <Name>PlayFab</Name>
+    </ProjectReference>
+    <ProjectReference Include="PhotonRealtime.csproj">
+      <Project>{3CC8BE79-6087-9777-3D3A-594178740EF5}</Project>
+      <Name>PhotonRealtime</Name>
     </ProjectReference>
     <ProjectReference Include="AllIn1VfxAssmebly.csproj">
       <Project>{B60E035E-8C8D-9883-4C60-C44DDADFC07D}</Project>

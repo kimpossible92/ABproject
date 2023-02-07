@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0317210080c3664ca1ca53310b781ad, type: 3}
+  m_Name: SoundEmitterFactory
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7269686560794192498, guid: d4053bbeb5c4ac946a38432e1ba7fb76, type: 3}

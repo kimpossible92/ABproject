@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7bf06ecaf9e1164bb5de505ed699d57, type: 3}
+  m_Name: SkinContainer
+  m_EditorClassIdentifier: 
+  defaultMazeSkin: {fileID: 11400000, guid: 2a5338372c70fad45a378387a6efc126, type: 2}
+  spaceMazeSkin: {fileID: 11400000, guid: e66aea517d60ac448ab0d84d7fade1fb, type: 2}
+  skin3MazeSkin: {fileID: 11400000, guid: ee9833e5e44e5b148b116f7b366c7b3c, type: 2}
+  defaultSnakeSkin: {fileID: 11400000, guid: c22e9787dde4c3e4da48e601deec3564, type: 2}
+  astronautSnakeSkin: {fileID: 11400000, guid: 46a5ef2ae2b20a34c89479124f282bac, type: 2}
+  skin3SnakeSkin: {fileID: 11400000, guid: b6c7830433b9eb24b96edcd5f8060654, type: 2}
+  defaultAudioSkin: {fileID: 11400000, guid: f4cc48916a92991449c3f0c83329cfc9, type: 2}
+  busSnakeSelectSkinSo: {fileID: 11400000, guid: 3a3c35e8e693511419b1708520cf45c9, type: 2}
+  busMazeSelectSkinSo: {fileID: 11400000, guid: f00f22afaa80c604981076dc480b93f5, type: 2}

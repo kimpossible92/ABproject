@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c064a2b3d9eed4ca7332db6a7c1ace, type: 3}
+  m_Name: FoodPool
+  m_EditorClassIdentifier: 
+  factory: {fileID: 11400000, guid: d3104d3615d814c449b7372b1a68f115, type: 2}

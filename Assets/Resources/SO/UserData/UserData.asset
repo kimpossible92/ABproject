@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 32
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58104c38700acbd4280fb4014b58bfde, type: 3}
+  m_Name: UserData
+  m_EditorClassIdentifier: 
+  playFabServerResponse: {fileID: 11400000, guid: 34411d9139259124b8cc0385819d6f05, type: 2}
+  updateCoins: {fileID: 11400000, guid: 1bf26b46e6b90eb40aaa947898883db4, type: 2}
+  busSnakeSelectSkinSo: {fileID: 11400000, guid: 3a3c35e8e693511419b1708520cf45c9, type: 2}
+  busMazeSelectSkinSo: {fileID: 11400000, guid: f00f22afaa80c604981076dc480b93f5, type: 2}
+  skinContainerSo: {fileID: 11400000, guid: 095b6959987a18d4490b0e8b63c243f2, type: 2}
+  playFabManagerSo: {fileID: 11400000, guid: 139fc8d043f03dd4caf81ec6546c77d9, type: 2}

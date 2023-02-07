@@ -6,6 +6,25 @@ TagManager:
   tags:
   - Pieza
   - GameField
+  - w
+  - wirm
+  - rub
+  - spawnman
+  - corm
+  - terrain
+  - wall
+  - enemy
+  - enem
+  - fire
+  - bonus
+  - yad
+  - Cube
+  - Destryable
+  - Breakable
+  - powerup
+  - Wall
+  - Bomb
+  - Explosion
   layers:
   - Default
   - TransparentFX

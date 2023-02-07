@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/scenenew.unity
+- path: Assets/Scenes/spacewar/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

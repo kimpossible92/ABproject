@@ -1,0 +1,23 @@
+{
+    "cloudScriptErrorCode": "CloudScriptAPIRequestError",
+    "stack": "Errorn    at Object.server_request (Script:181:24)n    at Object.server.AddUserVirtualCurrency (Script:506:79)n    at AddUserUserVirtualCurrency (E0CD8-.CloudScript.js:142:19)n    at handlers.AddSCCurrency (E0CD8-.CloudScript.js:68:22)n    at Object.invokeFunction (Script:117:33)",
+    "apiErrorInfo": {
+        "api": "/Server/AddUserVirtualCurrency",
+        "request": {
+            "Amount": -100,
+            "PlayFabId": "BB3779BD9CF58DBC",
+            "VirtualCurrency": "SC"
+        },
+        "result": null,
+        "apiError": {
+            "code": 400,
+            "status": "BadRequest",
+            "retryAfterSeconds": null,
+            "error": "InvalidParams",
+            "errorCode": 1000,
+            "errorMessage": "Amount must not be negative",
+            "errorHash": null,
+            "errorDetails": null
+        }
+    }
+}

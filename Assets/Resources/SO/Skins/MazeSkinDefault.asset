@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3e90ee9515f5344db496f5532c6d811, type: 3}
+  m_Name: MazeSkinDefault
+  m_EditorClassIdentifier: 
+  topRightLeft: {fileID: 11400000, guid: 0a279f9e9ac6ee84b842a9caf70279db, type: 2}
+  topRightBot: {fileID: 11400000, guid: 5327aaebca9880f4da577884d2afc069, type: 2}
+  topLeftBot: {fileID: 11400000, guid: f996287a8e6007f4db0c13bfbf67eecf, type: 2}
+  topRight: {fileID: 11400000, guid: 340004c8458635a4a827a610bfa2f323, type: 2}
+  topLeft: {fileID: 11400000, guid: 1d1d5704af38a724caa634bd89bb8076, type: 2}
+  topBot: {fileID: 11400000, guid: e469d40ad25267943ab3231933d35271, type: 2}
+  top: {fileID: 11400000, guid: c22e9faa69ece864ead522daa2049404, type: 2}
+  rightLeftBot: {fileID: 11400000, guid: 8a506f13cf6e407449aec3cbd1ee7f5d, type: 2}
+  rightLeft: {fileID: 11400000, guid: 80f114546f49c074fbae1924f57e115f, type: 2}
+  rightBot: {fileID: 11400000, guid: d6260ccce4311c043b9617218231ea7f, type: 2}
+  leftBot: {fileID: 11400000, guid: 4d4bdd06ebd3db84abd1b19c934d2082, type: 2}
+  right: {fileID: 11400000, guid: a8d9616f34ad3dc419d40127fab8d463, type: 2}
+  left: {fileID: 11400000, guid: ec14b9f7a6e354c4282e9e05729c6a6a, type: 2}
+  bot: {fileID: 11400000, guid: dc65a834a17b10440ae2b48b54cbf398, type: 2}
+  empty: {fileID: 11400000, guid: d3556e5e827d77c4a93e884cc2364127, type: 2}
+  horizontalCorridor: {fileID: 11400000, guid: e6cf4dc7a59a4144fb068aae43726e80, type: 2}
+  verticalCorridor: {fileID: 11400000, guid: 7b7fc63258c66a14eaeed5ebe70d6fcc, type: 2}
+  exit: {fileID: 11400000, guid: ab08dbdd51d48344fbc135a0e53f0c87, type: 2}
+  food:
+  - {fileID: 11400000, guid: d843e1c54900f4945a194a15210b9a30, type: 2}
+  - {fileID: 11400000, guid: 9d727b21dea77204d9f0e7d04c9fa9c4, type: 2}
+  - {fileID: 11400000, guid: af5e9a6a68b3e6c44b04f4b40d25ba06, type: 2}
+  - {fileID: 11400000, guid: f05cfee38c11664489c9d01d0011adaa, type: 2}
+  backgroundColor: {r: 0.20000002, g: 0.06666667, b: 0.13333334, a: 0}
